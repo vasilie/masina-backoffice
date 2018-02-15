@@ -1,15 +1,14 @@
-1518709025a:1:{s:14:"postdetail.htm";a:9:{s:8:"fileName";s:14:"postdetail.htm";s:7:"content";s:322:"title = "PostDetail"
+1518735163a:1:{s:14:"postdetail.htm";a:8:{s:8:"fileName";s:14:"postdetail.htm";s:7:"content";s:160:"title = "PostDetail"
 url = "/postdetail"
 is_hidden = 0
-
-[builderList]
-modelClass = "RainLab\Builder\Models\Settings"
-scope = "-"
-displayColumn = "title"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsKeyColumn = "title"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
 ==
-{% component 'builderList' %}";s:5:"mtime";i:1518708412;s:6:"markup";s:29:"{% component 'builderList' %}";s:4:"code";N;s:5:"title";s:10:"PostDetail";s:3:"url";s:11:"/postdetail";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:8:{s:10:"modelClass";s:31:"RainLab\Builder\Models\Settings";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:16:"detailsKeyColumn";s:5:"title";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}
+<?php
+$users = Db::table('users')->get();
+foreach ($users as $user) {
+    echo $user->name;
+}
+?>
+==";s:5:"mtime";i:1518733909;s:6:"markup";s:0:"";s:4:"code";s:90:"$users = Db::table('users')->get();
+foreach ($users as $user) {
+    echo $user->name;
+}";s:5:"title";s:10:"PostDetail";s:3:"url";s:11:"/postdetail";s:9:"is_hidden";s:1:"0";}}

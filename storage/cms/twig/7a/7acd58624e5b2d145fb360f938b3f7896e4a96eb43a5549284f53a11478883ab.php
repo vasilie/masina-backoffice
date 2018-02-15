@@ -17,7 +17,19 @@ class __TwigTemplate_5badef39eac6d1f4654c660d5afc9739a4557e4569bf673588198c8a80c
     {
         // line 1
         $context['__cms_component_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("builderList2"        , $context['__cms_component_params']        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Title"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Type"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Image"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("Text"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("builderDetails"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
     }
 
@@ -38,6 +50,6 @@ class __TwigTemplate_5badef39eac6d1f4654c660d5afc9739a4557e4569bf673588198c8a80c
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% component 'builderList2' %}", "/Applications/AMPPS/www/masina-backoffice/themes/responsiv-flat/pages/postlist.htm", "");
+        return new Twig_Source("{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}", "/Applications/AMPPS/www/masina-backoffice/themes/responsiv-flat/pages/postlist.htm", "");
     }
 }

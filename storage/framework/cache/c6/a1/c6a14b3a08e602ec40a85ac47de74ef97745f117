@@ -1,15 +1,48 @@
-1518709025a:1:{s:12:"postlist.htm";a:9:{s:8:"fileName";s:12:"postlist.htm";s:7:"content";s:338:"title = "PostList"
+1518735485a:1:{s:12:"postlist.htm";a:13:{s:8:"fileName";s:12:"postlist.htm";s:7:"content";s:1183:"title = "PostList"
 url = "/postlist"
 is_hidden = 0
 
-[builderList builderList2]
+[builderList Title]
 modelClass = "Vasilie\Kreator\Models\Post"
 scope = "-"
 displayColumn = "title"
 noRecordsMessage = "No records found"
-detailsPage = "postdetail"
-detailsKeyColumn = "title"
-detailsUrlParameter = ":id"
+detailsPage = "-"
+detailsUrlParameter = "id"
 pageNumber = "{{ :page }}"
+
+[builderList Type]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "type"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList Image]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "image"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList Text]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "text"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderDetails]
+modelClass = "Vasilie\Kreator\Models\Post"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "id"
+notFoundMessage = "Record not found"
 ==
-{% component 'builderList2' %}";s:5:"mtime";i:1518708419;s:6:"markup";s:30:"{% component 'builderList2' %}";s:4:"code";N;s:5:"title";s:8:"PostList";s:3:"url";s:9:"/postlist";s:9:"is_hidden";s:1:"0";s:24:"builderList builderList2";a:8:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:10:"postdetail";s:16:"detailsKeyColumn";s:5:"title";s:19:"detailsUrlParameter";s:3:":id";s:10:"pageNumber";s:11:"{{ :page }}";}}}
+{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}";s:5:"mtime";i:1518734883;s:6:"markup";s:122:"{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}";s:4:"code";N;s:5:"title";s:8:"PostList";s:3:"url";s:9:"/postlist";s:9:"is_hidden";s:1:"0";s:17:"builderList Title";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Type";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"type";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:17:"builderList Image";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"image";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Text";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"text";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:14:"builderDetails";a:5:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:2:"id";s:15:"notFoundMessage";s:16:"Record not found";}}}

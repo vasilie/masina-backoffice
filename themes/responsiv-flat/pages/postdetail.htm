@@ -1,15 +1,11 @@
 title = "PostDetail"
 url = "/postdetail"
 is_hidden = 0
-
-[builderList]
-modelClass = "RainLab\Builder\Models\Settings"
-scope = "-"
-displayColumn = "title"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsKeyColumn = "title"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
 ==
-{% component 'builderList' %}
+<?php
+$users = Db::table('users')->get();
+foreach ($users as $user) {
+    echo $user->name;
+}
+?>
+==

@@ -2,14 +2,47 @@ title = "PostList"
 url = "/postlist"
 is_hidden = 0
 
-[builderList builderList2]
+[builderList Title]
 modelClass = "Vasilie\Kreator\Models\Post"
 scope = "-"
 displayColumn = "title"
 noRecordsMessage = "No records found"
-detailsPage = "postdetail"
-detailsKeyColumn = "title"
-detailsUrlParameter = ":id"
+detailsPage = "-"
+detailsUrlParameter = "id"
 pageNumber = "{{ :page }}"
+
+[builderList Type]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "type"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList Image]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "image"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList Text]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "text"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderDetails]
+modelClass = "Vasilie\Kreator\Models\Post"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "id"
+notFoundMessage = "Record not found"
 ==
-{% component 'builderList2' %}
+{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}

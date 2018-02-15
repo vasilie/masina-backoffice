@@ -1,0 +1,11 @@
+name: Posts
+modelClass: Vasilie\Kreator\Models\Post
+form: $/vasilie/kreator/models/post/fields.yaml
+defaultRedirect: vasilie/kreator/posts
+create:
+    redirect: 'vasilie/kreator/posts/update/:id'
+    redirectClose: vasilie/kreator/posts
+update:
+    redirect: vasilie/kreator/posts
+    redirectClose: vasilie/kreator/posts
+preview: {  }

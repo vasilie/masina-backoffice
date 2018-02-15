@@ -1,0 +1,11 @@
+1518708658a:1:{s:9:"media.htm";a:9:{s:8:"fileName";s:9:"media.htm";s:7:"content";s:225:"title = "media"
+url = "/media"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "RainLab\Builder\Models\Settings"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "media"
+notFoundMessage = "Record not found"
+==";s:5:"mtime";i:1518538484;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:5:"media";s:3:"url";s:6:"/media";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:31:"RainLab\Builder\Models\Settings";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:5:"media";s:15:"notFoundMessage";s:16:"Record not found";}}}

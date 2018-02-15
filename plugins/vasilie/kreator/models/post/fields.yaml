@@ -1,0 +1,25 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: left
+        type: text
+    type:
+        label: 'Media type'
+        oc.commentPosition: ''
+        options:
+            vertical: Vertical
+            horizontal: Horizontal
+        span: auto
+        type: radio
+    text:
+        label: 'Text area'
+        span: full
+        size: large
+        oc.commentPosition: ''
+        type: textarea
+    img:
+        label: Image
+        span: auto
+        oc.commentPosition: ''
+        type: text

@@ -1,0 +1,14 @@
+1518708658a:1:{s:12:"homeline.htm";a:10:{s:8:"fileName";s:12:"homeline.htm";s:7:"content";s:259:"title = "Home"
+url = "/home"
+is_hidden = 0
+
+[builderDetails]
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+notFoundMessage = "Record not found"
+
+[builderList]
+noRecordsMessage = "No records found"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==";s:5:"mtime";i:1518538098;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:5:"/home";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:3:{s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:15:"notFoundMessage";s:16:"Record not found";}s:11:"builderList";a:3:{s:16:"noRecordsMessage";s:16:"No records found";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

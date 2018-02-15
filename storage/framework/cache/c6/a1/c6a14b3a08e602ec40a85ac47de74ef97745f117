@@ -1,0 +1,15 @@
+1518709025a:1:{s:12:"postlist.htm";a:9:{s:8:"fileName";s:12:"postlist.htm";s:7:"content";s:338:"title = "PostList"
+url = "/postlist"
+is_hidden = 0
+
+[builderList builderList2]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "postdetail"
+detailsKeyColumn = "title"
+detailsUrlParameter = ":id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList2' %}";s:5:"mtime";i:1518708419;s:6:"markup";s:30:"{% component 'builderList2' %}";s:4:"code";N;s:5:"title";s:8:"PostList";s:3:"url";s:9:"/postlist";s:9:"is_hidden";s:1:"0";s:24:"builderList builderList2";a:8:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:10:"postdetail";s:16:"detailsKeyColumn";s:5:"title";s:19:"detailsUrlParameter";s:3:":id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

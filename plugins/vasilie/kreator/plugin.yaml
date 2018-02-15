@@ -1,0 +1,11 @@
+plugin:
+    name: 'vasilie.kreator::lang.plugin.name'
+    description: 'vasilie.kreator::lang.plugin.description'
+    author: Vasilie
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    kreator:
+        label: Kreator
+        url: vasilie/kreator/posts
+        icon: icon-align-justify

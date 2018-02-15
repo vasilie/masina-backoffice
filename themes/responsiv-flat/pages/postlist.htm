@@ -1,0 +1,15 @@
+title = "PostList"
+url = "/postlist"
+is_hidden = 0
+
+[builderList builderList2]
+modelClass = "Vasilie\Kreator\Models\Post"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "postdetail"
+detailsKeyColumn = "title"
+detailsUrlParameter = ":id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList2' %}

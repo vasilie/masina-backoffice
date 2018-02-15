@@ -1,0 +1,10 @@
+name: Medi
+form: $/vasilie/media/models/medi/fields.yaml
+modelClass: Vasilie\Media\Models\Medi
+defaultRedirect: vasilie/media/medi
+create:
+    redirect: 'vasilie/media/medi/update/:id'
+    redirectClose: vasilie/media/medi
+update:
+    redirect: vasilie/media/medi
+    redirectClose: vasilie/media/medi

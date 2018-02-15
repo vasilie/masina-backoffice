@@ -1,0 +1,4 @@
+title: Posts
+modelClass: Vasilie\Kreator\Models\Post
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Medij
+modelClass: Vasilie\Media\Models\Medij
+form: $/vasilie/media/models/medij/fields.yaml
+defaultRedirect: vasilie/media/medij
+create:
+    redirect: 'vasilie/media/medij/update/:id'
+    redirectClose: vasilie/media/medij
+update:
+    redirect: vasilie/media/medij
+    redirectClose: vasilie/media/medij

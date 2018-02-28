@@ -6,3 +6,8 @@ fields:
         imageWidth: '500'
         span: auto
         type: mediafinder
+    text1:
+        label: Text
+        oc.commentPosition: ''
+        span: auto
+        type: text

@@ -1,11 +1,14 @@
 title = "PostDetail"
 url = "/postdetail"
 is_hidden = 0
+
+[builderList]
+modelClass = "Vasilie\Masina\Models\Post"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
 ==
-<?php
-$users = Db::table('users')->get();
-foreach ($users as $user) {
-    echo $user->name;
-}
-?>
-==
+{% component 'builderList' %}

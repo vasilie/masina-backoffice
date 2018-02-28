@@ -1,8 +1,0 @@
-1.0.1:
-    - 'Initialize plugin.'
-1.0.2:
-    - 'Created table vasilie_vesti_'
-    - builder_table_create_vasilie_vesti_.php
-1.0.3:
-    - 'Created table vasilie_vesti_postovi'
-    - builder_table_create_vasilie_vesti_postovi.php

@@ -1,0 +1,10 @@
+name: Post
+form: $/vasilie/masina/models/post/fields.yaml
+modelClass: Vasilie\Masina\Models\Post
+defaultRedirect: vasilie/masina/post
+create:
+    redirect: 'vasilie/masina/post/update/:id'
+    redirectClose: vasilie/masina/post
+update:
+    redirect: vasilie/masina/post
+    redirectClose: vasilie/masina/post

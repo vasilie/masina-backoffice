@@ -1,4 +1,4 @@
-1518735485a:1:{s:12:"postlist.htm";a:13:{s:8:"fileName";s:12:"postlist.htm";s:7:"content";s:1183:"title = "PostList"
+1519824466a:1:{s:12:"postlist.htm";a:13:{s:8:"fileName";s:12:"postlist.htm";s:7:"content";s:1200:"title = "PostList"
 url = "/postlist"
 is_hidden = 0
 
@@ -45,4 +45,12 @@ modelKeyColumn = "id"
 displayColumn = "id"
 notFoundMessage = "Record not found"
 ==
-{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}";s:5:"mtime";i:1518734883;s:6:"markup";s:122:"{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}";s:4:"code";N;s:5:"title";s:8:"PostList";s:3:"url";s:9:"/postlist";s:9:"is_hidden";s:1:"0";s:17:"builderList Title";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Type";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"type";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:17:"builderList Image";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"image";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Text";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"text";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:14:"builderDetails";a:5:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:2:"id";s:15:"notFoundMessage";s:16:"Record not found";}}}
+<?php
+$users = DB::table('vasilie_kreator_posts')->get();
+
+        return view('post.title', ['vasilie_kreator_posts' => $users]);
+?>
+==
+";s:5:"mtime";i:1519035575;s:6:"markup";s:0:"";s:4:"code";s:126:"$users = DB::table('vasilie_kreator_posts')->get();
+
+        return view('post.title', ['vasilie_kreator_posts' => $users]);";s:5:"title";s:8:"PostList";s:3:"url";s:9:"/postlist";s:9:"is_hidden";s:1:"0";s:17:"builderList Title";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Type";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"type";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:17:"builderList Image";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"image";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:16:"builderList Text";a:7:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:5:"scope";s:1:"-";s:13:"displayColumn";s:4:"text";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:14:"builderDetails";a:5:{s:10:"modelClass";s:27:"Vasilie\Kreator\Models\Post";s:15:"identifierValue";s:9:"{{ :id }}";s:14:"modelKeyColumn";s:2:"id";s:13:"displayColumn";s:2:"id";s:15:"notFoundMessage";s:16:"Record not found";}}}

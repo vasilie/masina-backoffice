@@ -1,6 +1,0 @@
-plugin:
-    name: 'vasilie.media::lang.plugin.name'
-    description: 'vasilie.media::lang.plugin.description'
-    author: Vasilie
-    icon: oc-icon-adjust
-    homepage: ''

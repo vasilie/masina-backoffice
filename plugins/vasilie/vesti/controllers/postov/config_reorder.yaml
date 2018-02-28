@@ -1,4 +1,0 @@
-title: Postov
-modelClass: Vasilie\Vesti\Models\Post
-toolbar:
-    buttons: reorder_toolbar

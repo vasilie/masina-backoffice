@@ -1,4 +1,5 @@
 title: Posts
+nameFrom: title
 modelClass: Vasilie\Kreator\Models\Post
 toolbar:
     buttons: reorder_toolbar

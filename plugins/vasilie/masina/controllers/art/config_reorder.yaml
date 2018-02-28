@@ -1,0 +1,4 @@
+title: Art
+modelClass: Vasilie\Masina\Models\Art
+toolbar:
+    buttons: reorder_toolbar

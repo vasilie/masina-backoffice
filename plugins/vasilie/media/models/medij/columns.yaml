@@ -1,7 +1,0 @@
-columns:
-    name:
-        label: name
-        type: text
-    year:
-        label: yrear
-        type: text

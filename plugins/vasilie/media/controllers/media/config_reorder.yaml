@@ -1,5 +1,0 @@
-title: Media
-modelClass: Vasilie\Media\Models\Medij
-nameFrom: medija
-toolbar:
-    buttons: reorder_toolbar

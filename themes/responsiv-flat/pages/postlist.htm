@@ -45,4 +45,9 @@ modelKeyColumn = "id"
 displayColumn = "id"
 notFoundMessage = "Record not found"
 ==
-{% component 'Title' %}{% component 'Type' %}{% component 'Image' %}{% component 'Text' %}{% component 'builderDetails' %}
+<?php
+$users = DB::table('vasilie_kreator_posts')->get();
+
+        return view('post.title', ['vasilie_kreator_posts' => $users]);
+?>
+==

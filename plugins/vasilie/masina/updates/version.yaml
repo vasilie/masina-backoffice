@@ -1,0 +1,20 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table vasilie_masina_posts'
+    - builder_table_create_vasilie_masina_posts.php
+1.0.3:
+    - 'Updated table vasilie_masina_posts'
+    - builder_table_update_vasilie_masina_posts.php
+1.0.4:
+    - 'Updated table vasilie_masina_posts'
+    - builder_table_update_vasilie_masina_posts_2.php
+1.0.5:
+    - 'Created table vasilie_masina_arts'
+    - builder_table_create_vasilie_masina_arts.php
+1.0.6:
+    - 'Updated table vasilie_masina_arts'
+    - builder_table_update_vasilie_masina_arts.php
+1.0.7:
+    - 'Updated table vasilie_masina_arts'
+    - builder_table_update_vasilie_masina_arts_2.php

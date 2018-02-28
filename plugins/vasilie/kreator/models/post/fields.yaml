@@ -18,8 +18,11 @@ fields:
         size: large
         oc.commentPosition: ''
         type: textarea
-    img:
-        label: Image
+    mediafinder1:
+        label: 'Media finder'
         span: auto
         oc.commentPosition: ''
-        type: text
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        type: mediafinder

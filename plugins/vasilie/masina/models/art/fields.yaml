@@ -1,0 +1,8 @@
+fields:
+    img:
+        label: 'Media finder'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '500'
+        span: auto
+        type: mediafinder

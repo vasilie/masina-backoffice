@@ -1,0 +1,5 @@
+title: Post
+nameFrom: title
+modelClass: Vasilie\Masina\Models\Post
+toolbar:
+    buttons: reorder_toolbar

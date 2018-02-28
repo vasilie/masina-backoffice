@@ -1,0 +1,10 @@
+name: Art
+form: $/vasilie/masina/models/art/fields.yaml
+modelClass: Vasilie\Masina\Models\Art
+defaultRedirect: vasilie/masina/art
+create:
+    redirect: 'vasilie/masina/art/update/:id'
+    redirectClose: vasilie/masina/art
+update:
+    redirect: vasilie/masina/art
+    redirectClose: vasilie/masina/art

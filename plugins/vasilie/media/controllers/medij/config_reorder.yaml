@@ -1,5 +1,0 @@
-title: Medij
-modelClass: Vasilie\Media\Models\Medij
-nameFrom: mejida
-toolbar:
-    buttons: reorder_toolbar

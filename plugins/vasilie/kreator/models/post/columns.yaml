@@ -9,13 +9,17 @@ columns:
         type: text
         searchable: true
         sortable: true
-    img:
-        label: Image
+    text:
+        label: text
         type: text
         searchable: true
         sortable: true
-    text:
-        label: Text
+    file:
+        label: File
+        type: partial
+        sortable: true
+        path: ~/plugins/vasilie/kreator/models/post/_file_column.htm
+    mediafinder1:
+        label: Media
         type: text
-        searchable: true
         sortable: true
